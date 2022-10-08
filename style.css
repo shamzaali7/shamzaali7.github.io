@@ -1,13 +1,24 @@
 body {
+    border-style:outset;
+    border-width: 4px;
+    border
+}
+
+.container-1 {
+    
+}
+
+.container-2 {
 
 }
 
-header {
-    text-align: center;
+.skills {
+    list-style-type: none;
+    margin-left: -20px;
 }
 
-nav{
-
+.skills li:before {
+    content: '\2014';
 }
 
 section {
@@ -19,5 +30,9 @@ article {
 }
 
 footer {
+    
+}
 
+a {
+    color:aquamarine;
 }
