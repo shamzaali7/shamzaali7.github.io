@@ -1,14 +1,59 @@
 body {
+    display: flex;
+    flex-direction: column;
     border-style:outset;
     border-width: 4px;
-    border
+    background-image: url("/Users/syedhamzaali/sei/projects/shamzaali7.github.io/shapelined-_JBKdviweXI-unsplash.jpg");
+    min-height: 100vh;
 }
 
-.container-1 {
-    
+.container-header {
+    display: flex;
+    background-color: rgba(0, 0, 0, .7)
 }
 
-.container-2 {
+.container-header div{
+    padding: 14px;
+    font-size: 20px;
+}
+
+.container-header .box-1 {
+    flex: 3;
+    font-size: 24px;
+    color:lightgrey;
+}
+
+.container-header .box-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.container-header .box-3 {
+    flex: 1;
+    text-align: center;
+}
+
+.container-header .box-4 {
+    flex: 1;
+    text-align: center;
+}
+
+.container-header .box-5 {
+    text-align: right;
+    flex: 3;
+    font-size: 20px;
+}
+
+.container-header a {
+    text-decoration: none;
+    color: grey;
+}
+
+article {
+    flex-grow: 1;
+}
+
+.container-skills {
 
 }
 
@@ -29,10 +74,28 @@ article {
 
 }
 
-footer {
-    
+.container-footer {
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    position: relative;
 }
 
-a {
-    color:aquamarine;
+.container-footer .box-1 {
+    font-size: 11px;
+    flex: 4;
+}
+
+.container-footer .box-1 {
+    font-size: 11px;
+    flex: 1;
+}
+
+.container-footer a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.container-footer .box-1 .social {
+    
 }
