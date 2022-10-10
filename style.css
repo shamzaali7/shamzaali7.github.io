@@ -63,7 +63,7 @@ article {
     background-color: rgba (0,0,0,0);
 }
 
-iframe {
+img {
     margin: 0 auto;
     display: block;
 }
@@ -88,23 +88,23 @@ iframe {
 }
 
 .container-path .start {
-    flex: 5;
-    margin: 40px 75px 40px 50px;
+    flex: 1;
+    margin: 50px 500px 40px 80px;
 }
 
 .container-path .college {
     flex: 1;
-    margin: 40px 50px 40px 75px;
+    margin: 40px 80px 40px 500px;
 }
 
 .container-path .summer {
     flex: 1;
-    margin: 40px 75px 40px 50px;
+    margin: 40px 500px 40px 80px;
 }
 
 .container-path .winter {
     flex: 1;
-    margin: 40px 50px 40px 75px;
+    margin: 40px 80px 40px 500px;
 }
 
 .container-projects {
