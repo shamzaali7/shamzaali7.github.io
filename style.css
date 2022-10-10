@@ -4,7 +4,7 @@ body {
     border-style:outset;
     border-width: 4px;
     border-color: lightgrey;
-    background-image: url("/Users/syedhamzaali/sei/projects/shamzaali7.github.io/shapelined-_JBKdviweXI-unsplash.jpg");
+    background-image: url("https://imgur.com/vAQPKx6.jpg");
     min-height: 100vh;
 }
 
@@ -68,7 +68,11 @@ iframe {
     display: block;
 }
 
-.resume .resume {
+.container-resume {
+    padding: 10px 0 0 0;
+}
+
+.container-resume .resume {
     text-align: center;
 }
 
