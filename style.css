@@ -3,18 +3,22 @@ body {
     flex-direction: column;
     border-style:outset;
     border-width: 4px;
+    border-color: lightgrey;
     background-image: url("/Users/syedhamzaali/sei/projects/shamzaali7.github.io/shapelined-_JBKdviweXI-unsplash.jpg");
     min-height: 100vh;
 }
 
 .container-header {
     display: flex;
-    background-color: rgba(0, 0, 0, .7)
+    background-color: rgba(0, 0, 0, .7);
+    align-items: flex-end;
+    
 }
 
 .container-header div{
     padding: 14px;
     font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .container-header .box-1 {
@@ -24,24 +28,24 @@ body {
 }
 
 .container-header .box-2 {
-    flex: 1;
+    flex: .5;
     text-align: center;
 }
 
 .container-header .box-3 {
-    flex: 1;
+    flex: .5;
     text-align: center;
 }
 
 .container-header .box-4 {
-    flex: 1;
+    flex: .5;
     text-align: center;
 }
 
 .container-header .box-5 {
     text-align: right;
     flex: 3;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .container-header a {
@@ -49,8 +53,81 @@ body {
     color: grey;
 }
 
+.container-header a:hover {
+    color:black;
+}
+
+
 article {
     flex-grow: 1;
+}
+
+iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+.resume .resume {
+    text-align: center;
+}
+
+.container-path {
+    display: flex;
+    flex-direction: column;
+    margin: 70px auto;
+}
+
+.container-path div {
+    border: solid;
+    padding: 10px;
+}
+
+.container-path .start {
+    flex: 5;
+    margin: 40px 75px 40px 50px;
+}
+
+.container-path .college {
+    flex: 1;
+    margin: 40px 50px 40px 75px;
+}
+
+.container-path .summer {
+    flex: 1;
+    margin: 40px 75px 40px 50px;
+}
+
+.container-path .winter {
+    flex: 1;
+    margin: 40px 50px 40px 75px;
+}
+
+.container-projects {
+    display: flex;
+    flex-direction: column;
+    margin: 70px auto;
+}
+
+.container-projects div {
+    border: solid;
+    padding: 10px;
+}
+
+.container-projects .project-1 {
+    margin: 40px 75px 40px 50px;
+    flex: 1;
+}
+
+.container-projects .project-2 {
+    margin: 40px 50px 40px 75px;
+}
+
+.container-projects .project-3 {
+    margin: 40px 75px 40px 50px;
+}
+
+.container-projects .project-4 {
+    margin: 40px 50px 40px 75px;
 }
 
 .container-skills {
@@ -66,17 +143,9 @@ article {
     content: '\2014';
 }
 
-section {
-
-}
-
-article {
-
-}
-
 .container-footer {
     display: flex;
-    padding: 20px;
+    padding: 25px;
     margin: auto;
     position: relative;
 }
@@ -94,6 +163,11 @@ article {
 .container-footer a {
     text-decoration: none;
     font-size: 14px;
+    color: rgb(26, 26, 142);
+}
+
+.container-footer a:visited {
+    color: green;
 }
 
 .container-footer .box-1 .social {
